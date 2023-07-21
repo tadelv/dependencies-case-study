@@ -17,6 +17,12 @@ extension MyClient: TestDependencyKey {
       print("test value")
     }
   }
+
+  public static var previewValue: MyClient {
+    MyClient {
+      print("preview value")
+    }
+  }
 }
 
 public extension DependencyValues {
