@@ -14,7 +14,6 @@
 		18573ACF2A5D40250072D95B /* DependenciesTestCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18573ACE2A5D40250072D95B /* DependenciesTestCaseTests.swift */; };
 		18573AD92A5D40250072D95B /* DependenciesTestCaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18573AD82A5D40250072D95B /* DependenciesTestCaseUITests.swift */; };
 		18573ADB2A5D40250072D95B /* DependenciesTestCaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18573ADA2A5D40250072D95B /* DependenciesTestCaseUITestsLaunchTests.swift */; };
-		18573AEB2A5D46120072D95B /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = 18573AEA2A5D46120072D95B /* Dependencies */; };
 		18573AEE2A5D46810072D95B /* MyClientLive in Frameworks */ = {isa = PBXBuildFile; productRef = 18573AED2A5D46810072D95B /* MyClientLive */; };
 		18DC8BC02A5D5B1100AB686E /* MyFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 18DC8BBF2A5D5B1100AB686E /* MyFeature */; };
 /* End PBXBuildFile section */
@@ -58,7 +57,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				18DC8BC02A5D5B1100AB686E /* MyFeature in Frameworks */,
-				18573AEB2A5D46120072D95B /* Dependencies in Frameworks */,
 				18573AEE2A5D46810072D95B /* MyClientLive in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,7 +162,6 @@
 			);
 			name = DependenciesTestCase;
 			packageProductDependencies = (
-				18573AEA2A5D46120072D95B /* Dependencies */,
 				18573AED2A5D46810072D95B /* MyClientLive */,
 				18DC8BBF2A5D5B1100AB686E /* MyFeature */,
 			);
@@ -623,11 +620,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		18573AEA2A5D46120072D95B /* Dependencies */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 18573AE92A5D46120072D95B /* XCRemoteSwiftPackageReference "swift-dependencies" */;
-			productName = Dependencies;
-		};
 		18573AED2A5D46810072D95B /* MyClientLive */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = MyClientLive;
